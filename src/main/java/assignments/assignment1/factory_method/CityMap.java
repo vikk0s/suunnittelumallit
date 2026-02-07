@@ -3,7 +3,7 @@ package assignments.assignment1.factory_method;
 import assignments.assignment1.factory_method.tiles.BuildingTile;
 import assignments.assignment1.factory_method.tiles.ForestTile;
 import assignments.assignment1.factory_method.tiles.RoadTile;
-import assignments.factory_method.tiles.*;
+import assignments.assignment1.factory_method.tiles.*;
 
 public class CityMap extends Map {
     @Override
