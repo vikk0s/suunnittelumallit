@@ -6,6 +6,6 @@ public class TextFieldB extends TextField {
     }
 
     public void display() {
-        System.out.println("TextFieldB: " + text);
+        System.out.println("[TextField B] " + text);
     }
 }

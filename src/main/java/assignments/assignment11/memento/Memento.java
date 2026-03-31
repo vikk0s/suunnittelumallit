@@ -1,4 +1,4 @@
-package assignments.assignment11;
+package assignments.assignment11.memento;
 
 public class Memento implements IMemento {
     private int[] options;

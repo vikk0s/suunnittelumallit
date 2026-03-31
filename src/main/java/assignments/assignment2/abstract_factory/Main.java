@@ -14,5 +14,10 @@ public class Main {
         button.setText("Click me again");
 
         button.display();
+
+        UIFactory factory2 = new BFactory();
+        TextField textField2 = factory2.createTextField("Enter text");
+
+        textField2.display();
     }
 }

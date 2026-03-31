@@ -1,4 +1,4 @@
-package assignments.assignment11;
+package assignments.assignment11.memento;
 
 public class Model {
     private int[] options = new int[3];
