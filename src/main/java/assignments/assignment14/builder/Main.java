@@ -7,5 +7,13 @@ public class Main {
         director.constructComputer();
         Computer computer = builder.getComputer();
         System.out.println(computer);
+
+        System.out.println();
+
+        ComputerBuilder officeBuilder = new OfficeComputerBuilder();
+        ComputerDirector officeDirector = new ComputerDirector(officeBuilder);
+        officeDirector.constructComputer();
+        Computer officeComputer = officeBuilder.getComputer();
+        System.out.println(officeComputer);
     }
 }
